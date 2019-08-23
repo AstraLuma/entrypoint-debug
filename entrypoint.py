@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/local/bin/python
 import os
 import sys
 import shutil
@@ -13,7 +13,7 @@ for arg in sys.argv:
 print("")
 print("== ENVIRON ==")
 for k, v in os.environ.items():
-    print(f"{k}: {v}")
+    print(f"{k}:\t{v}")
 
 print("")
 print("== STDIN ==")
